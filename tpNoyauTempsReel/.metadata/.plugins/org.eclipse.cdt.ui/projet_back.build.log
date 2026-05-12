@@ -1,0 +1,64 @@
+14:26:33 **** Build of configuration config_default for project projet_back ****
+cmake --build config_default 
+[ 78%] Built target STM32_Drivers
+[ 80%] Building C object CMakeFiles/back.dir/Core/Src/main.c.obj
+C:/Users/Esther/Desktop/ENSEA 3D/projet/st3k/firmware/st3k/back/Core/Src/main.c: In function 'main':
+C:/Users/Esther/Desktop/ENSEA 3D/projet/st3k/firmware/st3k/back/Core/Src/main.c:394:36: warning: passing argument 1 of 'ssd1107_set_cursor' makes integer from pointer without a cast [-Wint-conversion]
+  394 |                 ssd1107_set_cursor(&h_ssd1107, 0, 0);
+      |                                    ^~~~~~~~~~
+      |                                    |
+      |                                    h_ssd1107_t * {aka struct h_ssd1107_struct *}
+In file included from C:/Users/Esther/Desktop/ENSEA 3D/projet/st3k/firmware/st3k/back/Core/Src/main.c:25:
+C:/Users/Esther/Desktop/ENSEA 3D/projet/st3k/firmware/st3k/back/cmake/stm32cubemx/../../Core/Inc/ssd1107.h:58:44: note: expected 'uint8_t' {aka 'unsigned char'} but argument is of type 'h_ssd1107_t *' {aka 'struct h_ssd1107_struct *'}
+   58 | ssd1107_error_t ssd1107_set_cursor(uint8_t x, uint8_t y);
+      |                                    ~~~~~~~~^
+C:/Users/Esther/Desktop/ENSEA 3D/projet/st3k/firmware/st3k/back/Core/Src/main.c:394:17: error: too many arguments to function 'ssd1107_set_cursor'
+  394 |                 ssd1107_set_cursor(&h_ssd1107, 0, 0);
+      |                 ^~~~~~~~~~~~~~~~~~
+C:/Users/Esther/Desktop/ENSEA 3D/projet/st3k/firmware/st3k/back/cmake/stm32cubemx/../../Core/Inc/ssd1107.h:58:17: note: declared here
+   58 | ssd1107_error_t ssd1107_set_cursor(uint8_t x, uint8_t y);
+      |                 ^~~~~~~~~~~~~~~~~~
+C:/Users/Esther/Desktop/ENSEA 3D/projet/st3k/firmware/st3k/back/Core/Src/main.c:395:38: warning: passing argument 1 of 'ssd1107_write_string' from incompatible pointer type [-Wincompatible-pointer-types]
+  395 |                 ssd1107_write_string(&h_ssd1107, "ENSEA 2026:E-F-Z", Font_7x10, black);
+      |                                      ^~~~~~~~~~
+      |                                      |
+      |                                      h_ssd1107_t * {aka struct h_ssd1107_struct *}
+C:/Users/Esther/Desktop/ENSEA 3D/projet/st3k/firmware/st3k/back/cmake/stm32cubemx/../../Core/Inc/ssd1107.h:57:36: note: expected 'char *' but argument is of type 'h_ssd1107_t *' {aka 'struct h_ssd1107_struct *'}
+   57 | uint8_t ssd1107_write_string(char* str, ssd1107_font_t font, ssd1107_color_t color);
+      |                              ~~~~~~^~~
+C:/Users/Esther/Desktop/ENSEA 3D/projet/st3k/firmware/st3k/back/Core/Src/main.c:395:50: error: incompatible type for argument 2 of 'ssd1107_write_string'
+  395 |                 ssd1107_write_string(&h_ssd1107, "ENSEA 2026:E-F-Z", Font_7x10, black);
+      |                                                  ^~~~~~~~~~~~~~~~~~
+      |                                                  |
+      |                                                  char *
+C:/Users/Esther/Desktop/ENSEA 3D/projet/st3k/firmware/st3k/back/cmake/stm32cubemx/../../Core/Inc/ssd1107.h:57:56: note: expected 'ssd1107_font_t' {aka 'struct ssd1107_font_struct'} but argument is of type 'char *'
+   57 | uint8_t ssd1107_write_string(char* str, ssd1107_font_t font, ssd1107_color_t color);
+      |                                         ~~~~~~~~~~~~~~~^~~~
+C:/Users/Esther/Desktop/ENSEA 3D/projet/st3k/firmware/st3k/back/Core/Src/main.c:395:70: error: incompatible type for argument 3 of 'ssd1107_write_string'
+  395 |                 ssd1107_write_string(&h_ssd1107, "ENSEA 2026:E-F-Z", Font_7x10, black);
+      |                                                                      ^~~~~~~~~
+      |                                                                      |
+      |                                                                      ssd1107_font_t {aka struct ssd1107_font_struct}
+C:/Users/Esther/Desktop/ENSEA 3D/projet/st3k/firmware/st3k/back/cmake/stm32cubemx/../../Core/Inc/ssd1107.h:57:78: note: expected 'ssd1107_color_t' but argument is of type 'ssd1107_font_t' {aka 'struct ssd1107_font_struct'}
+   57 | uint8_t ssd1107_write_string(char* str, ssd1107_font_t font, ssd1107_color_t color);
+      |                                                              ~~~~~~~~~~~~~~~~^~~~~
+C:/Users/Esther/Desktop/ENSEA 3D/projet/st3k/firmware/st3k/back/Core/Src/main.c:395:17: error: too many arguments to function 'ssd1107_write_string'
+  395 |                 ssd1107_write_string(&h_ssd1107, "ENSEA 2026:E-F-Z", Font_7x10, black);
+      |                 ^~~~~~~~~~~~~~~~~~~~
+C:/Users/Esther/Desktop/ENSEA 3D/projet/st3k/firmware/st3k/back/cmake/stm32cubemx/../../Core/Inc/ssd1107.h:57:9: note: declared here
+   57 | uint8_t ssd1107_write_string(char* str, ssd1107_font_t font, ssd1107_color_t color);
+      |         ^~~~~~~~~~~~~~~~~~~~
+C:/Users/Esther/Desktop/ENSEA 3D/projet/st3k/firmware/st3k/back/Core/Src/main.c:390:17: warning: unused variable 'tx_data' [-Wunused-variable]
+  390 |         uint8_t tx_data;
+      |                 ^~~~~~~
+C:/Users/Esther/Desktop/ENSEA 3D/projet/st3k/firmware/st3k/back/Core/Src/main.c: At top level:
+C:/Users/Esther/Desktop/ENSEA 3D/projet/st3k/firmware/st3k/back/Core/Src/main.c:741:13: warning: 'MX_SDMMC2_SD_Init' defined but not used [-Wunused-function]
+  741 | static void MX_SDMMC2_SD_Init(void)
+      |             ^~~~~~~~~~~~~~~~~
+make[2]: *** [CMakeFiles/back.dir/build.make:76: CMakeFiles/back.dir/Core/Src/main.c.obj] Error 1
+make[1]: *** [CMakeFiles/Makefile2:100: CMakeFiles/back.dir/all] Error 2
+make: *** [Makefile:91: all] Error 2
+"cmake --build config_default" terminated with exit code 2. Build might be incomplete.
+
+14:26:41 Build Failed. 7 errors, 4 warnings. (took 8s.207ms)
+

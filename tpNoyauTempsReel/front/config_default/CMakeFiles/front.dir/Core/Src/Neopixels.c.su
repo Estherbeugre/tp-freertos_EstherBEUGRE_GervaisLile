@@ -1,0 +1,5 @@
+C:/Users/ZachariaFOFANA/Desktop/ENSEA/Projet_Laurent_Fiack/st3k/firmware/st3k/front/Core/Src/Neopixels.c:13:13:buildSPIbuffer	32	static
+C:/Users/ZachariaFOFANA/Desktop/ENSEA/Projet_Laurent_Fiack/st3k/firmware/st3k/front/Core/Src/Neopixels.c:36:6:setLed	16	static
+C:/Users/ZachariaFOFANA/Desktop/ENSEA/Projet_Laurent_Fiack/st3k/firmware/st3k/front/Core/Src/Neopixels.c:40:6:show	16	static
+C:/Users/ZachariaFOFANA/Desktop/ENSEA/Projet_Laurent_Fiack/st3k/firmware/st3k/front/Core/Src/Neopixels.c:45:23:mul8	16	static
+C:/Users/ZachariaFOFANA/Desktop/ENSEA/Projet_Laurent_Fiack/st3k/firmware/st3k/front/Core/Src/Neopixels.c:50:6:hsv_to_rgb_u8	40	static

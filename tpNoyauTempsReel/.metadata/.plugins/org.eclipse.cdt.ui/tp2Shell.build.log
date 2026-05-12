@@ -1,0 +1,9 @@
+16:35:16 **** Incremental Build of configuration Default for project tp2Shell ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE//plugins/com.st.stm32cube.ide.jre.win64_3.4.100.202508201254/jre/bin/server;C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE//plugins/com.st.stm32cube.ide.jre.win64_3.4.100.202508201254/jre/bin;C:\Python314\Scripts\;C:\Python314\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\Esther\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Esther\AppData\Local\Programs\Python\Python312\;C:\Users\Esther\AppData\Local\Programs\Python\Launcher\;C:\Users\Esther\AppData\Local\Microsoft\WindowsApps;C:\Users\Esther\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2025.2.3\bin;C:\Users\Esther\AppData\Roaming\npm;C:\altera\13.1\modelsim_ase\win32aloem;C:\ST\STM32CubeIDE_2.0.0\STM32CubeIDE]
+
+16:35:17 Build Failed. 1 errors, 0 warnings. (took 350ms)
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<item key="replaceBarOpen" value="false"/>
+	<list key="searchhistory">
+		<item value="gpio"/>
+		<item value="xTaskGetTickCount"/>
+		<item value="bim"/>
+		<item value="base"/>
+		<item value="taskled"/>
+		<item value="GPIOI"/>
+		<item value="GPIO_Pin_1"/>
+		<item value="LD2"/>
+	</list>
+</section>

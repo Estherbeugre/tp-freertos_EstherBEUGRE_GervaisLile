@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "front.map"
+  "CMakeFiles/front.dir/Core/Src/Encoders.c.obj"
+  "CMakeFiles/front.dir/Core/Src/Encoders.c.obj.d"
+  "CMakeFiles/front.dir/Core/Src/KeyMatrix.c.obj"
+  "CMakeFiles/front.dir/Core/Src/KeyMatrix.c.obj.d"
+  "CMakeFiles/front.dir/Core/Src/Neopixels.c.obj"
+  "CMakeFiles/front.dir/Core/Src/Neopixels.c.obj.d"
+  "CMakeFiles/front.dir/Core/Src/dma.c.obj"
+  "CMakeFiles/front.dir/Core/Src/dma.c.obj.d"
+  "CMakeFiles/front.dir/Core/Src/gpio.c.obj"
+  "CMakeFiles/front.dir/Core/Src/gpio.c.obj.d"
+  "CMakeFiles/front.dir/Core/Src/lptim.c.obj"
+  "CMakeFiles/front.dir/Core/Src/lptim.c.obj.d"
+  "CMakeFiles/front.dir/Core/Src/main.c.obj"
+  "CMakeFiles/front.dir/Core/Src/main.c.obj.d"
+  "CMakeFiles/front.dir/Core/Src/spi.c.obj"
+  "CMakeFiles/front.dir/Core/Src/spi.c.obj.d"
+  "CMakeFiles/front.dir/Core/Src/stm32g0xx_hal_msp.c.obj"
+  "CMakeFiles/front.dir/Core/Src/stm32g0xx_hal_msp.c.obj.d"
+  "CMakeFiles/front.dir/Core/Src/stm32g0xx_it.c.obj"
+  "CMakeFiles/front.dir/Core/Src/stm32g0xx_it.c.obj.d"
+  "CMakeFiles/front.dir/Core/Src/syscalls.c.obj"
+  "CMakeFiles/front.dir/Core/Src/syscalls.c.obj.d"
+  "CMakeFiles/front.dir/Core/Src/sysmem.c.obj"
+  "CMakeFiles/front.dir/Core/Src/sysmem.c.obj.d"
+  "CMakeFiles/front.dir/Core/Src/tim.c.obj"
+  "CMakeFiles/front.dir/Core/Src/tim.c.obj.d"
+  "CMakeFiles/front.dir/Core/Src/usart.c.obj"
+  "CMakeFiles/front.dir/Core/Src/usart.c.obj.d"
+  "CMakeFiles/front.dir/startup_stm32g071xx.s.obj"
+  "front.elf"
+  "front.elf.manifest"
+  "front.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang ASM C)
+  include(CMakeFiles/front.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

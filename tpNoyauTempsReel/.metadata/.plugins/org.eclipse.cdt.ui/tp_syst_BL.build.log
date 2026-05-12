@@ -1,0 +1,14 @@
+15:21:44 **** Incremental Build of configuration config_default for project tp_syst_BL ****
+cmake --build config_default 
+[ 73%] Built target STM32_Drivers
+[ 76%] Building C object CMakeFiles/tp_syst_contro.dir/Core/Src/main.c.obj
+[ 80%] Building C object CMakeFiles/tp_syst_contro.dir/Core/Src/stm32g0xx_it.c.obj
+[ 84%] Building C object CMakeFiles/tp_syst_contro.dir/Core/Src/stm32g0xx_hal_msp.c.obj
+[ 88%] Linking C executable tp_syst_contro.elf
+Memory region         Used Size  Region Size  %age Used
+             RAM:        1760 B         8 KB     21.48%
+           FLASH:       11424 B        64 KB     17.43%
+[100%] Built target tp_syst_contro
+
+15:22:00 Build Finished. 0 errors, 0 warnings. (took 16s.153ms)
+

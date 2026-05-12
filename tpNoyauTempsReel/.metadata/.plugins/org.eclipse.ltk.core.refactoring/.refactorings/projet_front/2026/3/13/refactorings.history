@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;projet_front/front/Core/Src/Calculatrice.h&apos; to &apos;Calculatrice.c&apos;" description="Rename resource &apos;Calculatrice.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="front/Core/Src/Calculatrice.h" name="Calculatrice.c" stamp="1774619348921" updateReferences="true"/>
+</session>

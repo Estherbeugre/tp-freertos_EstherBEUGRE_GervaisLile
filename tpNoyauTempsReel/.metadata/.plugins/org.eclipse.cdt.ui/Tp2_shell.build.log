@@ -1,0 +1,8 @@
+23:18:49 **** Incremental Build of configuration config_default for project Tp2_shell ****
+cmake --build config_default 
+[ 26%] Built target FreeRTOS
+[ 71%] Built target STM32_Drivers
+[100%] Built target Tp2_shell
+
+23:18:50 Build Finished. 0 errors, 0 warnings. (took 1s.50ms)
+

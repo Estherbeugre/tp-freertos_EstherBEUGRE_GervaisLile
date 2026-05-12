@@ -1,0 +1,15 @@
+23:18:24 **** Incremental Build of configuration config_default for project Tp2_shell ****
+cmake --build config_default 
+[ 26%] Built target FreeRTOS
+[ 71%] Built target STM32_Drivers
+[ 73%] Building C object CMakeFiles/Tp2_shell.dir/Core/Src/main.c.obj
+[ 76%] Linking C executable Tp2_shell.elf
+Memory region         Used Size  Region Size  %age Used
+             RAM:       38344 B       320 KB     11.70%
+           FLASH:       37768 B         1 MB      3.60%
+[100%] Built target Tp2_shell
+23:18:49 **** Incremental Build of configuration config_default for project Tp2_shell ****
+cmake --build config_default 
+[ 26%] Built target FreeRTOS
+[ 71%] Built target STM32_Drivers
+[100%] Built target Tp2_shell

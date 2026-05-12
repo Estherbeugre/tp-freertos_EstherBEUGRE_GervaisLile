@@ -1,0 +1,8 @@
+15:28:52 **** Build of configuration config_default for project tpNoyau ****
+cmake --build config_default 
+[ 23%] Built target FreeRTOS
+[ 69%] Built target STM32_Drivers
+[100%] Built target tpNoyauTempsReel
+
+15:28:54 Build Finished. 0 errors, 0 warnings. (took 1s.486ms)
+

@@ -1,0 +1,6 @@
+C:/Users/ZachariaFOFANA/Desktop/ENSEA/Projet_Laurent_Fiack/st3k/firmware/st3k/front/Core/Src/KeyMatrix.c:28:6:on_key_pressed	32	static
+C:/Users/ZachariaFOFANA/Desktop/ENSEA/Projet_Laurent_Fiack/st3k/firmware/st3k/front/Core/Src/KeyMatrix.c:55:6:on_key_released	32	static
+C:/Users/ZachariaFOFANA/Desktop/ENSEA/Projet_Laurent_Fiack/st3k/firmware/st3k/front/Core/Src/KeyMatrix.c:72:9:read_row	16	static
+C:/Users/ZachariaFOFANA/Desktop/ENSEA/Projet_Laurent_Fiack/st3k/firmware/st3k/front/Core/Src/KeyMatrix.c:93:6:matrix_process	32	static
+C:/Users/ZachariaFOFANA/Desktop/ENSEA/Projet_Laurent_Fiack/st3k/firmware/st3k/front/Core/Src/KeyMatrix.c:149:6:activate_col	16	static
+C:/Users/ZachariaFOFANA/Desktop/ENSEA/Projet_Laurent_Fiack/st3k/firmware/st3k/front/Core/Src/KeyMatrix.c:174:6:deactivate_all_cols	8	static
